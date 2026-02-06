@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NewsThread – Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; background:#0b0c10; color:#f7f7f7; margin:0; display:flex; min-height:100vh; align-items:center; justify-content:center; }
+    .wrap { max-width:460px; padding:24px; text-align:center; }
+    input[type="email"] { width:100%; padding:10px 12px; margin:8px 0; border-radius:4px; border:1px solid #444; box-sizing:border-box; }
+    button { padding:10px 16px; background:#1f7aec; border:none; border-radius:4px; color:#fff; cursor:pointer; }
+    button:hover { background:#155bb0; }
+    small { color:#aaa; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>NewsThread</h1>
+    <p>We’re building a better way to follow the stories you care about.</p>
+    <p><strong>Coming soon.</strong> Join the waitlist to get notified when we launch.</p>
+
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Notify me</button>
+      <input type="hidden" name="_subject" value="New signup for NewsThread">
+    </form>
+
+    <small>No spam. Just one email when we launch.</small>
+  </div>
+</body>
+</html>
