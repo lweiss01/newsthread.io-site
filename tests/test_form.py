@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-import pytest
 from playwright.sync_api import sync_playwright, expect
 
 def test_hidden_subject_field():
